@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>js animation</title>
+  <script>
+  var i=1;
+  function ismail(){
+  var image=document.getElementById('is');
+  if(i==1){
+  image.src="D:/images/photo-1505852679233-d9fd70aff56d.jpg";
+  i=2;
+  }
+  else if(i== 2){
+  image.src="D:/images/photo-1507097489474-c9212a8f8597.jpg";
+  i=3;
+  }
+  else{
+  image.src="D:/images/	photo-1505009258427-29298f4dc5f6.jpg";
+  i=1;
+  }
+  
+  } 
+	var stop=setInterval("ismail()", 1000);	
+  </script>
+ </head>
+ <body>
+ <image src="D:\images/photo-1505009258427-29298f4dc5f6.jpg" alt="" onclick="clearInterval(stop)" id="is" ></image>
+ </body>
+</html>

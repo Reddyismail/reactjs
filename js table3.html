@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>table3</title>
+  <link rel="stylesheet"href="D:\JAVA SCRIPT\js table3.css">
+  <style>
+   
+  </style>
+   <script>
+   
+    function sub(){
+	
+	 var f=document.getElementById('first').value;
+	 var la=document.getElementById('last').value;
+	 var a=document.getElementById('fother').value;
+	 var b=document.getElementById('mother').value;
+	 var d=document.getElementById('day').value;
+	 var m=document.getElementById('month').value;
+	var y=document.getElementById('year').value;
+	// var ma=document.getElementById('male').checked;
+	 var ma=1;
+	 if(f==""){
+	  alert("please enter first name");
+	 }
+	 else if(la==""){
+	  alert("please enter sec name");
+	 } else if(a==""){
+	  alert("please fa name");
+	 } else if(b==""){
+	  alert("please mo name");
+	 } else if(d==""){
+	  alert("please day ");
+	 } else if(m==""){
+	  alert("please month");
+	 }
+	 else if(ma=="1"){
+	  alert("male select");
+	 }
+	 else{
+	 alert('please enter the above ');
+	 }
+	    
+	} //close the sub function 
+	function sbi(){
+	  document.getElementById('first').value="";
+	  document.getElementById('last').value="";
+	 document.getElementById('fother').value="";
+	 document.getElementById('mother').value="";
+	 document.getElementById('day').value="";
+	 document.getElementById('month').value="";
+	}
+   </script>
+   
+  </link>
+ </head>
+ <body>
+  <div>
+   <table id="ba" border="0px" cellspacing="10px" cellpadding="0px"style="width:380px; height:400px;">
+  <tr>
+   <td><input type="text" placeholder="first name" size="24"id="first" style="padding:5px 0px 5px 0px; color:BLACK;"></input></td>
+   <td><input type="text" placeholder="last name" size="18"id="last"style="padding:5px 0px 5px 0px;color:BLACK;"></input></td>
+  </tr>
+  <tr>
+   <td><input type="text" placeholder="fother name" size="24"id="fother" style="padding:5px 0px 5px 0px;color:BLACK;"></input></td>
+   <td><input type="text" placeholder="mother name" size="18"id="mother" style="padding:5px 0px 5px 0px;color:BLACK;"></input></td>
+  </tr>
+  <tr >
+  <td  style="color:#6b7874;background-color:rgba(56, 201, 175,0.2);">
+  DD\MM\YY 
+  </td>
+   <td > 
+    <select style="color:#6b7874" id="day">
+
+	 <option>01
+	 <option>02
+	 <option>03
+	 <option>04
+	</select>
+	
+	<select style="color:#6b7874" id="month">
+	 <option>jan
+	 <option>feb
+	 <option>mar
+	 <option>Apl
+	</select>
+	
+	<select style="color:#6b7874;" id="year">
+	 <option>1999
+	 <option>2000
+	 <option>2001
+	 <option>2002
+	</select>
+   </td>
+  </tr>
+  <tr style="color:#6b7874;background-color:rgba(56, 201, 175,0.2);">
+   <td style="color:#6b7874">Gender</td>
+   <td>Male<input type="checkbox" id="male"></input>
+   female<input type="checkbox" id="female"></input>
+   Other<input type="checkbox" id="other"></input></td>
+  </tr>
+  <tr style="color:#6b7874; background-color:rgba(56, 201, 175,0.2)">
+  <td>Qualification</td>
+  <td>
+   <select style="color:#585c59;">
+    <option>B-tech
+    <option>M-tech
+   </select>
+  </td>
+  </tr>
+  <tr bgcolor="white" style="color:#585c59;background-color:rgba(56, 201, 175,0.2)">
+  <td>State</td>
+  <td>
+   <select style="color:#585c59;">
+    <option>Ap
+    <option>Telangana
+    <option>katakana
+   </select>
+  </td>
+  </tr>
+  <tr  style="color:#585c59;background-color:rgba(56, 201, 175,0.2)">
+  <td>City</td>
+  <td>
+   <select style="color:#585c59;background-color:rgba(56, 201, 175,0.2)">
+    <option>kadapa
+    <option>chittoor
+    <option>piler
+   </select>
+  </td>
+  </tr>
+  <tr>
+   <td colspan="2"><input type="text" placeholder="Email Adress"size="50" style="padding:5px 0px 5px 0px;"></input></td>
+   </input></td>
+  </tr>
+  <tr>
+  <td>
+  <input id="p" type="password" placeholder="password" size="24" style="background-color:rgba(56, 201, 175,0.2); padding:5px 0px 5px 0px;"></input>
+  </td>
+  <td>
+  <input id="c" type="password" placeholder="Confirm password" size="18"style="background-color:rgba(56, 201, 175,0.2); padding:5px 0px 5px 0px;"></input>
+  </td>
+  </tr>
+ </table><br>
+ <div>
+ <input  id="su" type="submit"; value="submit"; style="color:#85a8a2; padding:3px 20px 3px 20px;" onclick="sub()"></input>
+ <input type="reset" value="clear" onclick="sbi()" style=" color:#85a8a2; padding:3px 20px 3px 20px; margin:0px 0px 0px 230px;" id="cl"></input>
+ </div>
+  </div><br>
+ </body>
+</html>

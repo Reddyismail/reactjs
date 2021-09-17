@@ -1,0 +1,95 @@
+<DOCTYPE html>
+<html>
+ <head>
+  <title>focus</title>
+  <style>
+   .H1{
+   margin:100px auto;
+    width:800px;
+	height:400px;
+	background-color:red;
+	box-shadow:-20px 20px 3px #0a151f, -15px 10px 4px #183652;
+   } 
+   .k1{
+   float:left;
+   background-color:grey;
+   width:399px;
+	height:399px;
+	
+   }
+   .k2{
+   float:left;
+   background-color:#05111f;
+   width:399px;
+	height:400px;
+	border:1px solid white;
+   }
+   form{
+    margin:100px 0px 0px 100px;
+   }
+   p{
+    color:white;
+	letter-spacing:3px;
+   }
+   #f input[type="text"],#f input[type="password"]{
+   background-color:rgba(163, 176, 191,0.1);
+   border:0px;
+   color:white;
+   outline:none;
+   }
+   #f input[type="text"]:focus,#f input[type="password"]:focus{
+   color:white;
+   border-bottom:2px solid rgb(242, 245, 247);
+   }
+   a{
+   text-decoration:none;
+   letter-spacing:1px;
+   color:grey;
+   }
+   a:hover{
+   color:white;
+   }
+   #f input[type="submit"]:hover{
+    background-color:black;
+	color:white;
+	
+   }
+  </style>
+  <script>
+   function ismail(){
+    var a1=document.getElementById('a').value;
+    var b1=document.getElementById('b').value;
+	
+	if(a1==""){
+	 alert('please enter User name');
+	}
+	else if(b1==""){
+	 alert('please enter password');
+	} 
+	else if(b1==""){
+	 alert('please enter password');
+	}
+	else{
+	 alert('THANKS');
+	}
+   }
+  </script>
+ </head>
+ <body>
+  <div class="H1">
+    <div class="k1">
+	<image src="D:/images/J57hrVh.webp" width="400px" height="400px"></image>
+	</div>
+	<div class="k2">
+	 <form id="f">
+	  <p>UserName</p>
+	  <input id="a"type="text" placeholder=""></input>
+	  <p>Password</p>
+	  <input id="b" type="password" placeholder="******"></input><br><br>
+	  <input  type="submit" value="submit" onclick="ismail()"style="padding:0px 35px 0px 35px;margin:0px 0px 0px 25px;"></input>
+	  <p><a href="#">forgot the password ?</a></p>
+	  </form>
+	</div>
+  </div>
+ </body>
+</html>

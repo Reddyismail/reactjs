@@ -1,0 +1,29 @@
+*{
+margin:0px;
+padding:0px;
+}
+#D1{
+	background-color:;
+	width:1535px;
+	height:800px;
+}					/*close body tag*/
+
+#h{
+	
+	background-color:;
+	width:1535px;
+	height:100px;
+}
+#S1{
+	float:right;
+	width:1000px;
+	height:20px;
+	background-color:#5db6f5;
+	border-radius:0px 0px 0px 20px;
+}					/*close header tag*/
+
+#section{
+	background-color:red;
+	width:1535px;
+	height:400px;
+}					/*close section tag*/

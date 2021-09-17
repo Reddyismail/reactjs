@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>table3</title>
+   </head>
+   <body>
+   <script>
+    function sub(){
+	
+	 var f=document.getElementById('first').value;
+	 var l=document.getElementById('last').value;
+	 //var a=document.getElementById('fother').value;
+	 //var b=document.getElementById('mother').value;
+	 //var d=document.getElementById('day').value;
+	 //var m=document.getElementById('month').value;
+	 //var y=document.getElementById('year').value;
+	 var ta=document.getElementById('table');
+	 
+	 var row=ta.insertRow();
+	 
+	 var fcell=row.insertCell(0);
+	 var scell=row.insertCell(1);
+	 //var tcell=row.insertCell(2);
+	 //var acell=row.insertCell(3);
+	 //var bcell=row.insertCell(4);
+	 //var dcell=row.insertCell(5);
+	 
+	 fcell.innerHTML=f;
+	 scell.innerHTML=l;
+	// tcell.innerhtml=a;
+	// acell.innerhtml=b;
+	// bcell.innerhtml=d;
+	// dcell.innerhtml=m;
+	 
+	}
+   </script>
+    <input type="text" placeholder="first name" size="24"id="first"></input>
+	<input type="text" placeholder="last name" size="18"id="last"></input>
+	 <input type="submit" value="sub" onclick="sub()"></input>
+	 <table id="table" border="1px solid">
+    <tr>
+	 <td id="fs"></td>
+	 <td id="ss"></td>
+	 <td id="ts"></td>
+	</tr>
+   </table>
+   </body>
+   </html>

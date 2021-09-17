@@ -1,0 +1,154 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#d1{
+	background-color:;
+	width:1520px;
+	height:1300px;
+	margin:-30px auto;
+	border:1px solid ;
+	
+	}
+.header{
+	background-color:;
+	height:80px;
+	width:1520px;
+	color:#ff14d4;
+	text-align:center;
+	font-size:40px;
+	margin:50px 0px 0px 0px;
+	
+	
+}
+.nav {
+	background-color:#75706f;
+	height:60px;
+	margin-top:10px;
+	width:1520px;
+	color:white;
+	text-align:;
+	font-size:25px;
+}
+ nav ul li{
+	 float:left;
+	 margin-left:35px;
+	list-style-type:none;
+	line-height:50px;
+	
+}
+ ul li{
+margin-left:20px;	
+	
+}
+.i{
+	float:right;
+	margin:18px 10px 0px 0px;
+	line-height:0px;
+	color:white;
+	padding:15px;
+	background-color:#354b8c;
+	height:25px;
+}
+
+ 
+
+.section{
+	
+	background-color:;
+	height:570px;
+	margin:20px 0px 0px 0px;
+	width:960px;
+	color:;
+	text-align:;
+	font-size:30px;
+	float:left;
+	border-radius:5px;
+	
+}
+.image ul li{
+	list-style-type:none;
+	float:left;
+	margin:20px 0px 0px 30px;
+}
+#d2{
+	background-color:;
+margin:-680px 00px 0px 800px;
+width:600px;
+height:600px;
+
+	
+}
+footer{
+	
+}
+.s1{
+	background-color:#2e2f3b;
+	height:400px;
+	width:965px;
+	margin:30px auto;
+} 
+ul li{
+	list-style-type:none;
+}
+.f1{
+	
+	margin:0px 0px 0px 100px;
+}
+
+.f2{
+	
+	border-bottom:3px solid;
+	text-align:left;
+	color:white;
+	font-size:10px;
+	
+}
+.f3 li{
+color:grey;
+	
+font-family:Hometown;
+font-size:10px;
+}
+.F1{
+ float:left;
+ 
+}
+.F2{
+ float:left;
+}
+
+.F3{
+ float:left;	
+}
+table{
+	width:600px;
+	height:500px;
+	color:white;
+}
+::placeholder{
+	color:black;
+	opacity:0.9;
+	font-size:15px;
+}
+#ta tr td input[type="text"]:focus{
+	border-bottom:3px solid white;
+}
+#ta tr td input[type="password"]:focus{
+	border-bottom:3px solid white;
+}
+#tc{
+margin:-230px 0px 0px 0px;	
+}
+#tc tr td input[type="submit"]:hover,#tc tr td input[type="reset"]:hover{
+	box-shadow:-4px 4px 5px black ;	
+	background-color:rgba(190, 212, 194,0.9);
+} 
+#tc tr td input[type="submit"]:focus,#tc tr td input[type="reset"]:focus{
+	box-shadow:none ;	
+	background-color:rgba(106, 115, 122,0.9);
+}
+#tb tr td input[type="text"]:hover{
+background-color:rgba(190, 212, 194,0.9);
+box-shadow:-10px 10px 8px black ;	
+}

@@ -1,0 +1,60 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+margin:10px 0px 0px 0px;	
+}
+#ba {
+	
+	background-image:url('D:/images/1091f7113bc07eca44fc4633fc86f797.jpg');
+color:#85a8a2;
+box-shadow:-14px 14px 10px #203024;
+}
+table:hover {
+	
+}
+#ba tr td input[type="text"],#ba select{
+	background-color:rgba(56, 201, 175,0.2);
+	color:white;
+	border:none;
+	outline:none;
+	
+}
+#ba tr td input[type="text"]:focus,#ba select:focus{
+	background-color:red;
+	border-bottom:4px solid red;
+	color:black;
+	
+}
+input[type="submit"],input[type="reset"]{
+	
+	outline:none;
+	color:;
+}
+
+input[type="password"]{
+	border:none;
+	outline:none;
+	color:#85a8a2;
+}
+input[type="password"]:focus{
+	background-color:#797d85;
+	border-bottom:4px solid red;
+}
+
+#su,#cl{
+	background-color:black;
+}
+#su:hover,#cl:hover{
+	
+	background-color:#004f35;
+	color:black;
+	box-shadow:-2px 3px black;
+	
+}
+#ta{
+	background-image:url('D:/images/1091f7113bc07eca44fc4633fc86f797.jpg');
+color:#85a8a2;
+border:1px solid red;
+}

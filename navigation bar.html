@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>navigation bar</title>
+  <link  rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"></link>
+  <style>
+  *{
+  margin:0px;
+	padding:0px;
+	box-sizng:border-box;
+  }
+   .menu{
+    margin:0px;
+	padding:0px;
+	background-color:green;
+	text-align:center;
+   }
+   .menu ul{
+   display:inline-flex;
+    list-style-type:none;
+	 margin:0px;
+	padding:0px;
+	
+   }
+   .menu ul li{
+   position:;
+   width:120px;
+    margin:10px;
+	padding:8px;
+   }
+   .menu ul li a{
+   color:white;
+    
+    text-decoration:none;
+   }
+   .t,.menu ul li:active{
+   display:block;
+   background-color:red;
+   }
+   
+   .menu ul li:hover{
+    background-color:grey;
+	color:red;
+   }
+   .r{
+   display:none;
+   
+   }
+   .menu ul li:hover .r{
+   position:absolute;
+   
+  display:block;
+  margin-left:-10px;
+  margin-top:8px;
+   background-color:green;
+   }
+   .menu ul li:hover .r ul{
+   margin:0px 0px 0px 0px;
+  display:block;
+  
+   }
+   .menu ul li:hover .r ul li{
+   width:105px;
+   padding:6px;
+   text-align:left;
+   border-bottom:1px solid white;
+   }
+   .l{
+    display:none;
+   }
+   .ho:hover .l{
+   margin-top:-25px;
+	margin-left:100px;
+   position:absolute;
+    display:block;
+	background-color:black;
+   }
+    .ho:hover .l ul{
+	display:block;
+	border-bottom:0px;
+	
+	}
+  .ho.l ul li{
+   width:150px;
+   
+  }
+  </style>
+  
+ </head>
+ 
+ <body>
+  <div class="menu">
+    <ul>
+	 <li class="t"><a href=""><i class="fa fa-home"></i>Home</a></li>
+	 <li><a href="">log</a>
+	   <div class="r">
+	    <ul>
+		 <li><a href="">Menu1</a></li>
+		 <li><a href="">Menu2</a></li>
+		 <li><a href="">Menu3</a></li>
+		 <li class="ho"><a href="">Menu4</a>
+		  <div class="l">
+	    <ul>
+		 <li><a href="">Menu6</a></li>
+		 <li><a href="">Menu2</a></li>
+		 <li><a href="">Menu3</a></li>
+		 <li><a href="">Menu4</a></li>
+		</ul>
+	   </div>
+	 
+		 </li>
+		</ul>
+	   </div>
+	 
+	 
+	 
+	 </li>
+	 <li><a href="">Menu</a>
+	  <div class="r">
+	    <ul>
+		 <li><a href="">Menu1</a></li>
+		 <li><a href="">Menu2</a></li>
+		 <li><a href="">Menu3</a></li>
+		 <li class="ho"><a href="">Menu4</a>
+		  <div class="l">
+	    <ul>
+		 <li><a href="">Menu6</a></li>
+		 <li><a href="">Menu2</a></li>
+		 <li><a href="">Menu3</a></li>
+		 <li><a href="">Menu4</a></li>
+		</ul>
+	   </div>
+	 
+		 </li>
+		</ul>
+	   </div>
+	 </li>
+	 <li><a href="">raj</a></li>
+	 <li><a href="">com</a></li>
+	 <li><a href="">Home</a></li>
+	 <li><a href="">Home</a></li>
+	</ul>
+  </div>
+ </body>
+</html>
